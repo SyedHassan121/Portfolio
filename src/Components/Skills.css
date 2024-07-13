@@ -1,0 +1,31 @@
+:root{
+    --box-shadow: 5px 5px 20px 0px rgba(101,175,10,0.5);
+    --background-color:rgb(40,47,97)
+}
+.Skills{
+  width: 1500px;
+}
+.Skills .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 800px; */
+    margin: auto;
+    
+}
+.Skills .item{
+    width: calc(33.33%);
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    padding:50px;
+    border: 1px solid yellow;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    
+    
+}
+.Skills .item img{
+    width: 90px;
+}

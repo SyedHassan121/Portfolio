@@ -1,0 +1,70 @@
+:root{
+    --box-shadow: 5px 5px 20px 0px rgba(101,175,10,0.5);
+    --background-color:rgb(40,47,97)
+}
+.Home{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home .Right-Section .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 330px;
+  height: 330px;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  border: 5px solid yellow;
+  animation-name: Hero;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+} 
+.Home .Right-Section .img img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.Home .Left-Section{
+    background-color: transparent;
+    width: 700px;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid yellow ;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+  
+
+}
+@keyframes Hero{
+    0%{
+     border-color:blue ;
+     box-shadow: 10px 10px 100px 50px blue;
+     transform: translate(0,0px);
+    }
+    25%{
+        border-color:rgb(239,244,11) ;
+        box-shadow: 10px 10px 100px 50px rgb(239,244,11);
+        
+
+    }
+    50%{
+        border-color:rgb(12,12,119) ;
+        box-shadow: 10px 10px 100px 50px rgb(12,12,119);
+        transform: translate(0,20px);
+
+    }
+    75%{
+        border-color:rgb(130,217,160) ;
+        box-shadow: 10px 10px 100px 50px rgb(130,217,160);
+    
+    }
+    100%{
+        border-color:rgb(50,55,205) ;
+        box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+        transform: translate(0,0px);
+
+    }
+}

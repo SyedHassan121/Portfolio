@@ -1,0 +1,31 @@
+:root{
+    --box-shadow: 5px 5px 20px 0px rgba(101,175,10,0.5);
+    --background-color:rgb(40,47,97)
+}
+
+.links-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.links-icons .items{
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid yellow;
+
+}
+.links-icons .items:hover{
+    background-color: var(--background-color);
+    box-shadow: var(--box-shadow);
+}
+.links-icons .items .icon{
+    font-size: 40px;
+
+}
